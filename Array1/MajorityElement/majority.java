@@ -8,6 +8,11 @@ public class majority {
             if (count == 0) {
                 candidate = num;
             }
+            if (num == candidate) {
+                count++;
+            } else {
+                count--;
+            }
         }
         return candidate;
     }
