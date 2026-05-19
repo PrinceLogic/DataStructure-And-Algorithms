@@ -1,3 +1,4 @@
+package String;
 public class LengthOfLastWord {
     public static int lengthOfLastWord(String s) {
         int a = 0;
