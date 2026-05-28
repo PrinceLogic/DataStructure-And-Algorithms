@@ -1,4 +1,4 @@
-
+package Array1.KadanesAlgorithm;
 class program {
     public static int maxSubArray(int[] nums) {
         int maxSum = nums[0];
