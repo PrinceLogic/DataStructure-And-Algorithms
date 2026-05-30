@@ -1,4 +1,4 @@
-package Array1.SubArrayConcept;
+package SubArrayConcept;
 
 public class subArray {
     public static void subArray(int numbers[]) {

@@ -1,5 +1,3 @@
-package Array1;
-
 public class pairs {
     public static void Pairs(int numbers[]) {
         for (int i = 0; i <= numbers.length; i++) {

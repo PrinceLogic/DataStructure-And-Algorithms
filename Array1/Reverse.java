@@ -1,4 +1,3 @@
-package Array1;
 
 public class Reverse {
     public static void reverse(int numbers[]) {

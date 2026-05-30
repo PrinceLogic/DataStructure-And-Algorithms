@@ -1,4 +1,4 @@
-package Array1.MajorityElement;
+package MajorityElement;
 
 public class majority {
     public static int majority(int[] nums) {

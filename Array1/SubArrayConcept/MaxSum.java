@@ -1,4 +1,4 @@
-package Array1.SubArrayConcept;
+package SubArrayConcept;
 
 public class MaxSum {
     public static void kadanes(int numbers[]) {

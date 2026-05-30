@@ -1,5 +1,3 @@
-package Array1.TrappedWater;
-
 public class trappedWater {
     public static int trappedWater(int heights[]) {
         int n = heights.length;
