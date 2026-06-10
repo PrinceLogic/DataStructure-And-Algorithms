@@ -1,4 +1,6 @@
-class FindDifference {
+package String;
+
+public class FindDifference {
     public static char findTheDifference(String s, String t) {
         char extraChar = 0;
 
