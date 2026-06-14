@@ -1,3 +1,4 @@
+package linkedlist;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -9,7 +10,7 @@
  * }
  */
 public class addTwoNums {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode current = dummyHead;
         int carry = 0;
@@ -37,15 +38,17 @@ public class addTwoNums {
         return dummyHead.next;
     }
     public static void main(String[] args) {
-        
-    addTwoNums a1 = new addTwoNums();
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
-        ListNode result = a1.addTwoNumbers(l1, l2);
-        System.out.println(result);
-    }
+        ListNode head1 = new ListNode(2,null);
+        head1.next = new ListNode(4,null);
+        head1.next.next = new ListNode(3,null);
+        ListNode head2 = new ListNode(5,null);
+        head2.next = new ListNode(6,null);
+        head2.next.next = new ListNode(4,null);
+        ListNode result = addTwoNumbers(head1, head2);
+        while (result != null) {
+            System.out.print(result.val + " ");
+            result = result.next;
+        }
+        System.out.println();
+    }       
 }
