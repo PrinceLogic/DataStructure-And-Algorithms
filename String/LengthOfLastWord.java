@@ -1,15 +1,22 @@
-package String;
 public class LengthOfLastWord {
     public static int lengthOfLastWord(String s) {
-        int a = 0;
+        int length = 0;
         int len = s.length();
+
         for (int i = len - 1; i >= 0; i--) {
             char ch = s.charAt(i);
-            if (Character.isWhitespace(ch)) {
-                a = i;
+
+            if (ch != ' ') {
+                // If it's a letter, increase our word length count
+                length++;
+            } else if (length > 0) {
+                // If it IS a space, AND we have already started counting a word,
+                // it means we just finished the last word. Break the loop.
+                break;
             }
         }
-        return a;
+
+        return length;
     }
 
     public static void main(String[] args) {
