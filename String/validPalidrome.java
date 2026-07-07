@@ -1,4 +1,4 @@
-class validPalidrome {
+public class ValidPalidrome {
 
     public static boolean isPalindrome(String s) {
         int left = 0;
