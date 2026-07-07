@@ -31,7 +31,6 @@ class validPalidrome {
 
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
-        validPalidrome vp = new validPalidrome();
-        System.out.println(vp.isPalindrome(s));
+        System.out.println(isPalindrome(s));
     }
 }
