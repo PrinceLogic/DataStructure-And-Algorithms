@@ -1,4 +1,4 @@
-package Array1.MajorityElement;
+package MajorityElement;
 
 import java.util.ArrayList;
 import java.util.List;
